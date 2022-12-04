@@ -1,0 +1,51 @@
+.body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('https://www.stockvault.net/data/2014/06/22/159041/preview16.jpg');
+}
+
+.form{
+    display: flex;
+    width: 320px;
+    padding: 40px;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(256, 256, 256, 0.5);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+.form > img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;  /*for circle*/
+}
+
+.form>input{
+    border: 0;
+    width: 90%;
+    outline: 0;
+    padding: 13px;
+    margin: 5px 0;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.form>.btn{
+    width: 150px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 1000px;
+    color: rgb(256,256,256);
+    text-transform: uppercase;
+    background-color: rgb(23, 165, 137);
+}
+
+.form>.btn:hover{
+    background-color: rgb(20, 143, 119);
+}

@@ -1,0 +1,333 @@
+body{
+    background-color: transparent;
+}
+.navbar{
+    background-color: transparent;
+    color: black;
+    border-radius: 10px;
+    height: 110px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    list-style: none;
+    float: left;
+    margin: 6px 20px;
+}
+.loginbutton{
+    background-color: transparent;
+    color: black;
+    border-style: groove;
+    border-color: blue;
+}
+button{
+    background-color: yellow;
+}
+.container{
+    background-color: transparent;
+}
+.header{
+    background-color: transparent;
+}
+.bookingsection{
+    display: flex;
+    margin-left: 50px;
+    width: 270px;
+    padding: 60px;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(256, 256, 256, 0.5);
+    box-shadow: 0px 5px 10px rgba(17, 15, 15, 0.7);
+}
+#table{
+    display: flex;     
+    background-color:1559ab ;
+    align-content: left;
+    justify-content: right;
+
+}
+#table div{
+    align-items: left;   
+    margin: 5px;
+    width: 270%;               
+    display: flex;
+ width: 270px;
+padding: 10px;
+flex-direction: column;
+background-color: rgb(256,256,256,0.5);
+box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7); 
+}
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-image: url(https://images.unsplash.com/photo-1541427468627-a89a96e5ca1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.menu-bar
+{
+    text-align: center;    
+}
+.menu-bar ul 
+{
+    display: inline-flex;
+    list-style: none;
+    color: rgb(84, 26, 208);
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 1px;
+    padding: 25px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: black;
+    margin: auto;
+}
+.menu-bar ul li a:hover
+{
+    color: orange   ;
+}
+.active, .menu-bar ul li:hover
+{
+    background: transparent;
+    border-radius: 3px;
+}
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: transparent;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px; 
+    position: absolute;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom:  black;
+    background: 	#FFFAFA;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color: orange;
+}
+.sub-menu-2
+{
+    display: none;
+}
+.hover-me:hover .sub-menu-2
+{
+    position: absolute;
+    display:block;
+    margin-top: -30px;
+    margin-left: 160px;
+}
+.menu
+{
+    text-align: center;   
+}
+.menu ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: orange;
+}
+.menu-bar
+{
+    text-align:center; 
+}
+.menu-bar ul 
+{
+    display: inline-flex;
+    list-style: none;
+    color: rgb(84, 26, 208);
+    
+}
+.menu-bar ul li
+{
+    display: flex;
+width: 270px;
+padding: 60px;
+/* align-items: center; */
+/* flex-direction: column; */
+background-color: rgba(256, 256, 256, 0.5);
+box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
+/* border-radius: 25px; */
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    
+}
+.menu-bar ul li a:hover
+{
+   
+    color: orange;
+    /* border-radius: 25 px; */
+}
+.active, .menu-bar ul li:hover
+{
+    background: red;
+    /* border-radius: 25px; */
+}
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: transparent;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px; 
+    /* border-radius: 25px; */
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 10px;
+    padding: 1px;
+    border-bottom: 1px black;
+    background: 	#FFFAFA;
+    /* border-radius: 25px; */
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color: orange;
+}
+body
+{
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.menu-bar
+{
+    text-align: center;  
+    background-color: transparent;
+}
+.Line-2
+{
+    text-align: center;  
+    color: white;
+    background-color: transparent;
+    font-size: xx-large;
+}
+#Line-2
+{
+    text-align: center;  
+    color: white;
+    background-color: transparent;
+    font-size: large;
+}
+.menu-bar ul 
+{
+    display: inline-flex;
+    list-style: none;
+    color: rgb(84, 26, 208);
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 1px;
+    padding: 25px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.menu-bar ul li a:hover
+{
+    color: orange;
+}
+.active, .menu-bar ul li:hover
+{
+    background: transparent;
+    /* border-radius: 3px; */
+}
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: transparent;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px; 
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px black;
+    background: 	#FFFAFA;
+    border-radius: 0;
+    text-align: left;
+    border-radius: 6px;
+    margin: 8px; 
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+/* hover color  */
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color: orange;
+}
+.sub-menu-2
+{
+    display: none;
+}
+.hover-me:hover .sub-menu-2
+{
+    position: absolute;
+    display:block;
+    /* margin-top: -20px */
+    background: transparent;
+}
